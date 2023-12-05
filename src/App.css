@@ -1,0 +1,29 @@
+.demo-logo-vertical {
+  margin: 16px auto;
+  width: 20px;
+  height: 20px;
+  background-image: url(../public/logo.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu_sub_item .delete_in_item {
+  display: none;
+}
+
+.menu_sub_item:hover .delete_in_item {
+  display: block;
+}
+.delete_in_item:hover{
+  color:tomato;
+}
+.header-add-project{
+  font-size: 20px;
+  transition: all .1s ease-in;
+}
+
+.header-add-project:hover{
+  font-size: 24px;
+  margin-right: -2px;
+}
